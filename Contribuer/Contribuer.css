@@ -1,0 +1,339 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar {
+    border-top: 2px solid #000;
+    width: 70%;
+    padding: 15px;
+    padding-right: 60px;
+    margin-top: 70px;
+}
+header img {
+    height: 80px;
+    width: 80px;
+    margin-left: 40px;
+}
+
+nav {
+    display: flex;
+    gap: 60px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: rgb(107, 95, 95);
+    font-weight: bold;
+    text-align: center;
+    align-items: center;
+    padding: 5px;
+    display: flex;
+}
+
+.CONTRIB {
+    background-color: #7CB12F;
+}
+
+.CONTRIB img {
+    height: 30px;
+    width: 40px;
+} 
+
+.nav-right {
+    display: flex;
+    margin-bottom: 50px;
+    gap: 30px;
+}
+
+.recherche {
+    margin-right: 40px;
+    height: 50px;
+}
+.nav-right img {
+    height: 20px;
+    width: 20px;
+    margin-left: -250px;
+}
+
+/* form section*/
+.form-container{
+    display: flex;
+}
+
+.imform {
+    width: 1000px;
+    height: 600px;
+}
+
+.imform, .formulaire {
+    margin-bottom: 25px;
+}
+.imform {
+    background-image: url('img/f4e49e1c7f869da12eb2d3e155d4d8d0.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 90px;
+}
+
+.formulaire {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    background-color: #33382c13;
+    width: 1000px; 
+}
+
+.formulaire button {
+    padding: 10px 25px;
+    border: none;
+    border-radius: 20px;
+    background-color: #7CB12F;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 260px;
+}
+
+.formulaire h1 {
+    margin-bottom: 150px;
+    font-size: 2.5em;
+    color: rgba(255, 68, 0, 0.603);
+   
+}
+
+.formulaire input {
+    margin-bottom: 30px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    width: 90%;
+}
+
+#bénévol {
+    padding-bottom: 70px;
+}
+
+#bénévol select {
+    margin-bottom: 30px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    width: 90%;
+}
+
+.donation-form {
+    display: flex;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0.1);
+    overflow: hidden;
+    padding-bottom: 30px;
+}
+
+#do-donate {
+    padding: 15%;
+    padding-bottom: 50px;
+    width: 300px;
+    background-color: #8f92906c;
+    padding-top: 50px;
+}
+
+#do-donate h1 {
+    color: #a73f03;
+    font-size: 2rem;
+}
+
+#do-donate label {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+#do-donate input, #do-donate select {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+}
+
+#do-donate button {
+    width: 50%;
+    padding: 10px;
+    background-color: #7CB12F;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 80px;
+    margin-left: 50px;
+}
+
+#do-donate button:hover {
+    background-color: #283b30da;
+}
+
+.donation {
+    width: 20%;
+    height: 20%;
+}
+
+.donation img {
+    width: 250%;
+    height: 820px;
+    object-fit: cover;
+    margin-right: 820px;
+}
+
+.project h1 {
+    text-align: center;
+}
+
+.project h6 {
+    margin-left: 130px;
+    border-bottom: 1.5px solid limegreen;
+    margin-right: 100px;
+}
+
+.project-tems p {
+    margin-left: 800px;
+}
+
+/* Footer Section */
+footer {
+    background-color: #33333362;
+    padding-bottom: -500px;
+} 
+
+.footer-container {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap; 
+    gap: 5px; 
+    margin-right: 710px;
+    padding: 60px;
+    padding-bottom: -300px;
+    background-color: #05c21e;
+}
+
+.footer-container div {
+    min-width: 250px; 
+}
+
+.footer-container ul a {
+    text-decoration: none;
+}
+
+.footer-container h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #ffcc00; 
+}
+
+.footer-container ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-container li {
+    margin-bottom: 10px;
+    font-size: 1em;
+    color: #ccc; 
+}
+
+.newsletter {
+    display: flex-start;
+    position: absolute;
+    transform: translate(800px,-400px);
+}
+
+.newsletter h3 {
+    font-size: 3em;
+}
+.newsletter form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.newsletter input[type="email"] {
+    padding: 10px;
+    width: 100%;
+    max-width: 300px; 
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px; 
+}
+
+.newsletter button {
+    padding: 10px 127px;
+    border: none;
+    background-color: #44bd4f;
+    color: rgb(250, 246, 246);
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px; 
+    transition: background-color 0.3s;
+}
+
+.newsletter button:hover {
+    background-color: #85bd9c; 
+}
+
+
+.footer-bottom p {
+    margin: 0;
+    font-size: 0.9em;
+    color: #ccc; 
+}
+
+footer img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 200px;
+}
+
+.footer-container #social a {
+    margin-left: 250px;
+    margin-top: 20px;
+    display: flex;
+}
+
+.footer-container #social a img {
+    display: flex;
+    width: 40px;
+    height: 40px;
+}
+
+#social a img {
+    margin-left: 200px;
+}
+
+.footer-bottom {
+    padding: 10px;
+    background-color: #111010a8;
+}
+
+.footer-bottom p {
+    text-align: center;
+}
+
+.present {
+    text-decoration: none;
+}

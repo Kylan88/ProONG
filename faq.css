@@ -1,0 +1,38 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#tag {
+    flex-direction: column;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+    font-size: 200%;
+    margin: 15px 0;
+}
+
+a img {
+    width: 40px;
+    height: 40px;
+    margin-left: -40px;
+}
+
+img {
+    margin-right: 25px;
+}
+hr {
+   width: 100%;
+   border: 1px solid #00000093;
+   margin: 10px 0;
+}
